@@ -14,7 +14,7 @@ export default async (
   outDir = 'lib',
   dir = process.cwd()
 ): Promise<Config> => {
-  const config = loadNextConfig(require('next/constants').PHASE_PRODUCTION_BUILD, dir)
+  const config = await loadNextConfig(require('next/constants').PHASE_PRODUCTION_BUILD, dir)
   // support for pages folder inside src.
   const srcDir = fs.existsSync(path.posix.join(dir, 'pages')) ? dir : path.posix.join(dir, 'src')
 
