@@ -1,5 +1,5 @@
 import fs from 'fs'
-import loadNextConfig from 'next/dist/next-server/server/config'
+import loadNextConfig from 'next/dist/server/config'
 import path from 'path'
 
 export type Config = {
