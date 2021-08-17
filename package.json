@@ -1,6 +1,6 @@
 {
   "name": "next-pages-path-gen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pages path generator for Next.js.",
   "author": "kodai <k3dai.su3@gmail.com>",
   "license": "MIT",
